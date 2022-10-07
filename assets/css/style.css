@@ -2,13 +2,15 @@ body{
     background-color: cadetblue;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     text-align: center;
 }
 
 .ticket_calculator,
 .user_ticket{
     width: 80%;
-    margin: 0 auto;
+    margin: 2rem auto;
+    padding: 1rem 0;
     background-color: white;
     color: black;
     border-radius: 20px;
@@ -16,18 +18,19 @@ body{
 
 .ticket_calculator h2,
 .user_ticket h2{
-    padding: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid cadetblue;
 }
 
-.answers{
+.answers,
+.user_ticket_details{
     display: flex;
     justify-content: space-around;
-    margin: 1rem;
+    padding: 1rem;
 }
 .answers label,
-.ticket_price h3{
+.user_ticket_details h3{
     color: cadetblue;
-    font-weight: bold;
 }
 
 .ticket_calculator_body button{
@@ -43,7 +46,7 @@ body{
     padding: 1rem;
 }
 
-.ticket_price span{
+.user_ticket_details span{
     padding: 0.5rem;
     border-bottom: 2px solid cadetblue;
 }
