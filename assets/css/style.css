@@ -1,0 +1,39 @@
+body{
+    background-color: cadetblue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.ticket_calculator,
+.user_ticket{
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+.ticket_calculator h2,
+.user_ticket h2{
+    padding: 1rem;
+}
+
+.answers{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+}
+.answers label{
+    color: cadetblue;
+    font-weight: bold;
+}
+
+.ticket_calculator_body button{
+    background-color: cadetblue;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+}
