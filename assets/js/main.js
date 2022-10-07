@@ -27,4 +27,6 @@ buttonEl.addEventListener('click', function (){
        finalPrice = trainFare;
        console.log(finalPrice);
     }
+
+    document.getElementById("user_final_price").innerHTML = `${finalPrice.toFixed(2)} €`
 })
