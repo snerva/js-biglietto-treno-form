@@ -1,6 +1,8 @@
 const buttonEl = document.querySelector('button')
 
 buttonEl.addEventListener('click', function (){
+    const userName = document.getElementById('user_name').value;
+    console.log(userName);
     const kmNumber = document.getElementById('user_km').value;
     console.log(kmNumber);
     const userAge = document.getElementById('user_age').value;
@@ -28,5 +30,15 @@ buttonEl.addEventListener('click', function (){
        console.log(finalPrice);
     }
 
+    document.getElementById("ticket_name").innerHTML = `${userName}`
+
+    const wagonNumber = Math.floor(Math.random() * 10);
+    document.getElementById("wagon_random_number").innerHTML = `${wagonNumber}`
+
+    const cpCodeNumber = Math.floor(Math.random() * 10000);
+    document.getElementById("cp_code_random_number").innerHTML = `${cpCodeNumber}`
+
     document.getElementById("user_final_price").innerHTML = `${finalPrice.toFixed(2)} €`
+
+
 })
